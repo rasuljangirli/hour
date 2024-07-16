@@ -4,7 +4,6 @@ const second = document.querySelector("#second_p");
 
 function hourUI() {
     let data = new Date();
-
     houre.innerHTML = dabbleNumber(data.getHours());
     minute.innerHTML = dabbleNumber(data.getMinutes());
     second.innerHTML = dabbleNumber(data.getSeconds());
